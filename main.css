@@ -1,3 +1,14 @@
-html {
-    background-image: url(http://pankov.org/wp-content/uploads/2010/06/51.jpg)
+body {
+    background: #1faee9 ;
+    margin-left: 20% ;
+    margin-right: 20%;
+    margin-top: 5%;
+    
+
+}
+.text {
+    background: white;
+    border-radius: 10px;
+    padding-top: 3%;
+    
 }
