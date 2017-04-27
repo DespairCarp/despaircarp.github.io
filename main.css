@@ -1,27 +1,32 @@
 body {
-    background: #1faee9;
-    font-family: 'Bad Script', cursive;
+    background-image: url(img2.jpg); 
+    
 }
+
+ 
+  /* От ландшафтного экрана телефона до потретного планшета */
+  @media (max-width: 767px) {  
+  }
+ 
+  /* От портретного планшета до ландшафтного экрана и настольных дисплеев */
+  @media (min-width: 768px) and (max-width: 979px) {
+
+   }
+ 
+  /* Большой дисплей */
+@media (min-width: 1200px) { 
+
 .column {
-    background: #ffffff;
-    border-radius: 2%;
-    margin: 2%;
-    text-align: center;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
+    background: white;
+    padding: 2%;
+    border-radius: 10px;
+    margin-left: 14% ;
+    margin-right: 14%;
+    margin-top: 2%;
 
 }
-input {
-    border: 1px solid #999;
-    border-radius: 2%;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
-}
-input:focus {}
-button:hover {
-    opacity: 0.5;}
-button {
-    background: #1faee9;
-    color: #ffffff;
+
+    
+.guman {
+    background-color: #1faee9
 }
